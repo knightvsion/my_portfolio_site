@@ -24,9 +24,9 @@
                 </div>
 
                 <ul>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
@@ -34,15 +34,40 @@
                 <div class="hero-text">
                     <h1>Jason Knight</h1>
                     <p>Designer & Developer</p>
-                    <div class="button">About me</div>
+                    <div class="button"><a href="#projects">Projects</a></div>
                 </div>
             </div>
 
         </section>  
        
-        <section></section>
-        <section></section>
-        <footer></footer>
+        <section class="sub-section" id="about-me">
+            <div class="information">
+                <h2>Hello...</h2>
+                <p>It's nice to meet you! My name is Jason and I'm a UX Designer and Full Stack Developer. Checkout what I've been working on.</p>
+            </div>
+
+            <div class="headshot-container">
+                <img class="headshot" src="src/img/websiteheadshot.png" alt="Jason Knight Headshot"/>
+            </div>
+        </section>
+
+        <section class="sub-section-alternative" id="projects">
+            <h2 id="projects-header">Projects</h2>
+            <br>
+            <div class="project-container">
+                <div class="project-card">
+                    <a href="https://knightvsion.github.io/week-1-homework/"><img class="project-image" src="src/img/refactorthumbnailblur.png" alt="Code Refactor Image"/></a>
+                    <h4>Code Refactor</h4>
+                </div>
+                <div class="project-card"></div>
+                <div class="project-card"></div>
+                <div class="project-card"></div>
+        </section>
+
+        <footer id="contact">
+            <h3>You can reach me at...</h3>
+            <a href="https://google.com"><p>jknightm2@gmail.com</p></a>
+        </footer>
 
 
         <script src="src/menu.js"></script>
